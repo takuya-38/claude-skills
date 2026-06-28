@@ -2,7 +2,7 @@
 name: db-review
 description: >
   Review database schema design and detect anti-patterns.
-  Based on knowledge from two Japanese DB design books.
+  Based on common RDB design knowledge and best practices.
   Supports Prisma, Drizzle, Rails, Django, Laravel, TypeORM, Sequelize,
   SQLAlchemy, and raw SQL (DDL).
   Use when the user says "review DB design", "check schema", "review table design",
@@ -16,7 +16,7 @@ metadata:
 
 # db-review
 
-プロジェクトのDB設計を、2冊のDB設計本（失敗から学ぶRDBの正しい歩き方 / 達人に学ぶDB設計）の知見をもとにレビューするスキル。
+プロジェクトのDB設計を、一般的なRDB設計のベストプラクティスとアンチパターンの知見をもとにレビューするスキル。
 アンチパターンの「候補」を深刻度別に洗い出し、ユーザーが選んだ箇所だけをプロジェクト文脈を踏まえて深掘りする。
 
 ## このスキルの基本姿勢（最重要）
